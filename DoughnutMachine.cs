@@ -102,5 +102,19 @@ namespace Stefan_Ioana_Lab2
             mTimeOfCreation = DateTime.Now;
             mFlavor = aFlavor;
         }
+
+        private float mPrice = .50F;
+        private float Price
+        {
+            get
+            {
+                return mPrice;
+            }
+
+            set
+            {
+                mPrice = value;
+            }
+        }
     }
 }
